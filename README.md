@@ -16,7 +16,7 @@ Swoft Stdlib Component
 - composer command
 
 ```bash
-composer require swoft/stdlib
+composer require swoft-fork/stdlib
 ```
 
 ## Resources
