@@ -6,7 +6,11 @@
 [![Swoft License](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/swoft-cloud/swoft/blob/master/LICENSE)
 
 Swoft Stdlib 组件
-本仓库fork至 https://github.com/swoft-cloud/swoft-stdlib 仓库，兼容php8
+
+
+**注意：**
+
+本仓库fork于github swoft库，只测试了swoole4.8.13，php8.2对应版本环境，请慎用于你的生产环境，不负责积极代码维护。如需查看文档请访问原框架文档。
 
 ## [ENGLISH](README.md)
 
