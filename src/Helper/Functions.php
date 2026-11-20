@@ -44,7 +44,7 @@ if (!function_exists('tap')) {
      *
      * @return mixed
      */
-    function tap($value, Closure $callback = null)
+    function tap($value, ?Closure $callback = null)
     {
         if (!$callback) {
             return $value;

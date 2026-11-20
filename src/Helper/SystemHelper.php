@@ -66,7 +66,7 @@ class SystemHelper extends EnvHelper
      * @return array [$code, $output, $error]
      * @throws RuntimeException
      */
-    public static function run(string $command, string $cwd = null): array
+    public static function run(string $command, ?string $cwd = null): array
     {
         $descriptors = [
             0 => ['pipe', 'r'], // stdin - read channel
@@ -113,7 +113,7 @@ class SystemHelper extends EnvHelper
      *
      * @return array|string
      */
-    public static function execute(string $command, bool $returnStatus = true, string $cwd = null)
+    public static function execute(string $command, bool $returnStatus = true, ?string $cwd = null)
     {
         $exitStatus = 1;
 

@@ -65,7 +65,7 @@ class ComposerHelper
      *
      * @return array
      */
-    public static function parseLockFile(string $file, callable $filter = null): array
+    public static function parseLockFile(string $file, ?callable $filter = null): array
     {
         if (!file_exists($file)) {
             return [];

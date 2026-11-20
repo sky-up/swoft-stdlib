@@ -1146,7 +1146,7 @@ class ArrayHelper
      *
      * @return mixed
      */
-    public static function first($array, callable $callback = null, $default = null)
+    public static function first($array, ?callable $callback = null, $default = null)
     {
         if ($callback === null) {
             if (empty($array)) {
@@ -1214,7 +1214,7 @@ class ArrayHelper
      *
      * @return mixed
      */
-    public static function last($array, callable $callback = null, $default = null)
+    public static function last($array, ?callable $callback = null, $default = null)
     {
         if (is_null($callback)) {
             return empty($array) ? value($default) : end($array);
